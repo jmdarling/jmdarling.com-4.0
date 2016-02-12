@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="bower_components/reset-css/reset.css"/>
+  <link rel="stylesheet" href="styles/app.css"/>
+
+  <script src="https://use.typekit.net/jdx4ael.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-  <div class="header-bg"></div>
-  <h1>Jonathan</br>Darling</h1>
+  <div class="page header-page">
+    <div class="site-header">
+      <img class="site-header__logo" src="images/jmdarling-logo.svg" alt="Jonathan Darling"/>
 
-  <a href="">github</a>
-  <a href="">linkedin</a>
-  <a href="">twitter</a>
+      <h1 class="site-header__header">
+        Jonathan Darling<br/>
+        <span class="site-header__header__subheader">Front-End Developer</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="page content-page">
+    <div class="page__container">
+      <h2 class="page__header">About Me</h2>
+
+      <p class="copy">
+        Currently working as a web application developer at DCS Information Systems in Dallas Texas, my primary skills lie in creating appealing, intuitive interfaces that users will love to use. I am passionate about learning new technologies while embracing the limitations of older technologies as challenges. Design and development are more than a job to me, they are my passions that I take home with me after hours.
+      </p>
+    </div>
+  </div>
+
+  <div class="page content-page">
+    <div class="page__container">
+      <h2 class="page__header">Contact Me</h2>
+        <div class="contact-links">
+          <a class="contact-link" href="https://github.com/jmdarling">
+            <img src="images/github.svg" alt="github"/>
+          </a>
+
+          <a class="contact-link" href="https://www.linkedin.com/in/jonathandarling">
+            <img src="images/linkedin.svg" alt="linkedin"/>
+          </a>
+
+          <a class="contact-link" href="https://twitter.com/coltex_">
+            <img src="images/twitter.svg" alt="twitter"/>
+          </a>
+        </div>
+    </div>
+  </div>
 </body>
 </html>
